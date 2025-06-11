@@ -1,0 +1,19 @@
+/* Import Tailwind CSS base styles */
+@tailwind base;
+
+/* Import Tailwind CSS component styles */
+@tailwind components;
+
+/* Import Tailwind CSS utility styles */
+@tailwind utilities;
+
+/*
+  You can add any custom CSS rules here if needed,
+  but typically, with Tailwind, most styling is done
+  directly in your JSX using utility classes.
+*/
+
+/* Example of a custom global style (optional) */
+body {
+  font-family: 'Inter', sans-serif; /* Ensuring Inter font is used */
+}
